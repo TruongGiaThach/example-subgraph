@@ -1,7 +1,6 @@
 {
   "name": "example",
   "version": "0.1.0",
-  "repository": "https://github.com/graphprotocol/example-subgraph",
   "license": "MIT",
   "scripts": {
     "build-contract": "solc contracts/Gravity.sol --abi -o abis --overwrite && solc contracts/Gravity.sol --bin -o bin --overwrite",
@@ -21,6 +20,12 @@
     "babel-register": "^6.26.0",
     "truffle": "^5.0.4",
     "truffle-contract": "^4.0.5",
-    "truffle-hdwallet-provider": "^1.0.4"
+    "truffle-hdwallet-provider": "^1.0.4",
+    "@graphprotocol/graph-cli": "0.29.2",
+    "@graphprotocol/graph-ts": "0.26.0",
+    "caver-js": "^1.8.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "truffle-hdwallet-provider-klaytn": "^1.4.2"
   }
 }
